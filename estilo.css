@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #F6E8E8;
+}
+
+#cabecalho {
+    width: 100%;
+    padding: 1.4em 0;
+    background: #575757;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#txt a,
+#parceiro a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    margin: 15px auto;
+    color: #fff;
+    background: rgba(0, 0, 255, 0.3);
+    border-radius: 2em;
+}
+
+#txt a:hover,
+#parceiro a:hover,
+.btn:hover {
+    background: rgba(0, 0, 255, 0.5);
+}
+
+#logo {
+    float: left;
+    font-size: 1.5em;
+}
+
+#naveg li {
+    list-style: none;
+    padding-left: 2.5em;
+    float: left;
+}
+
+#naveg a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+#naveg a:hover {
+    color: black;
+}
+
+#conheca {
+    background: url(imagens/14.jpg) left top;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+#txt {
+    color: #fff;
+    padding-top: 3em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+input {
+    margin: 2em auto 0;
+    padding: 5px;
+    width: 45%;
+}
+
+input[name="assunto"] {
+    width: 94%;
+}
+
+textarea {
+    margin-top: 2em;
+    width: 97%;
+}
+
+#txt h3,
+#txt p {
+    width: 250px;
+}
+
+#conheca h3 {
+    padding-bottom: 10px;
+}
+
+#imagens img {
+    width: 350px;
+    height: 240px;
+    border-radius: 2em;
+    padding: 1em;
+    opacity: 0.8;
+}
+
+#imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#saiba {
+    width: 100%;
+    height: auto;
+}
+
+.pt1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
+}
+
+.pt2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pt1 p {
+    margin: 30px auto;
+    width: 800px;
+}
+
+.pt2 p {
+    width: 500px;
+    margin-left: 3em;
+}
+
+.centerTxt {
+    text-align: center;
+    padding: 2em;
+}
+
+#imgDif img,
+#imgProp img {
+    width: 110px;
+    height: 90px;
+    padding-top: 10px;
+    border-radius: 50%;
+    padding-right: 2em;
+}
+
+#imgDif {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+#imgDif p {
+    width: 600px;
+}
+
+#txtDif h3 {
+    margin: 2em auto;
+    text-align: center;
+}
+
+#parceiro,
+#propositos {
+    width: 75%;
+    margin: 2em auto;
+}
+
+#parcCont {
+    display: flex;
+    flex-direction: column;
+}
+
+#parceiro p {
+    margin: 1em auto 2em auto;
+}
+
+#imgProp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4em auto;
+}
+
+fieldset {
+    width: 500px;
+    padding: 1em;
+    margin-right: 1.5em;
+}
+
+#start h3,
+#start p {
+    margin-bottom: 1em;
+}
+
+#start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 3em;
+}
+
+#imgCtt img,
+#meio img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0.5em 0.5em;
+}
+
+#imgCtt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#meio {
+    width: 19%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: auto;
+}
+
+#contato {
+    margin: 5em auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    margin: 15px auto;
+    color: #fff;
+    background: rgba(0, 0, 255, 0.3);
+    border-radius: 2em;
+    width: 100px;
+    cursor: pointer;
+    display: block;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    height: 15vh;
+    padding-top: 2em;
+    margin: 100px auto 0;
+    text-align: center;
+}
